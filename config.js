@@ -5,17 +5,17 @@
 const CONFIG = {
     // Your Valentine's name that will appear in the title
     // Example: "Jade", "Sarah", "Mike"
-    valentineName: "Jade",
+    valentineName: "KRISHIKAAA",
 
     // The title that appears in the browser tab
     // You can use emojis! 💝 💖 💗 💓 💞 💕
-    pageTitle: "Will You Be My Valentine? 💝",
+    pageTitle: "Will You Be My Valentine? 💖💝",
 
     // Floating emojis that appear in the background
     // Find more emojis at: https://emojipedia.org
     floatingEmojis: {
         hearts: ['❤️', '💖', '💝', '💗', '💓'],  // Heart emojis
-        bears: ['🧸', '🐻']                       // Cute bear emojis
+        bears: ['🧸', '🐻', '🦄', '🐼']                       // Cute bear emojis
     },
 
     // Questions and answers
@@ -23,12 +23,12 @@ const CONFIG = {
     questions: {
         first: {
             text: "Do you like me?",                                    // First interaction
-            yesBtn: "Yes",                                             // Text for "Yes" button
-            noBtn: "No",                                               // Text for "No" button
-            secretAnswer: "I don't like you, I love you! ❤️"           // Secret hover message
+            yesBtn: "Yesssss",                                             // Text for "Yes" button
+            noBtn: "Hell No",                                               // Text for "No" button
+            secretAnswer: "I don't like you, I Hate You! ❤️"           // Secret hover message
         },
         second: {
-            text: "How much do you love me?",                          // For the love meter
+            text: "How much do you Hate me?",                          // For the love meter
             startText: "This much!",                                   // Text before the percentage
             nextBtn: "Next ❤️"                                         // Text for the next button
         },
@@ -42,9 +42,9 @@ const CONFIG = {
     // Love meter messages
     // They show up depending on how far they slide the meter
     loveMessages: {
-        extreme: "WOOOOW You love me that much?? 🥰🚀💝",  // Shows when they go past 5000%
-        high: "To infinity and beyond! 🚀💝",              // Shows when they go past 1000%
-        normal: "And beyond! 🥰"                           // Shows when they go past 100%
+        extreme: "WOOOOW You Hate me This much?? 🙂‍↔️🫣🚀💥",  // Shows when they go past 5000%
+        high: "To Eternity and beyond! 🚀💝",              // Shows when they go past 1000%
+        normal: "And beyond! 🤪"                           // Shows when they go past 100%
     },
 
     // Messages that appear after they say "Yes!"
@@ -67,8 +67,8 @@ const CONFIG = {
     // Animation settings
     // Adjust these if you want faster/slower animations
     animations: {
-        floatDuration: "15s",           // How long it takes hearts to float up (10-20s recommended)
-        floatDistance: "50px",          // How far hearts move sideways (30-70px recommended)
+        floatDuration: "12s",           // How long it takes hearts to float up (10-20s recommended)
+        floatDistance: "44px",          // How far hearts move sideways (30-70px recommended)
         bounceSpeed: "0.5s",            // Speed of bouncing animations (0.3-0.7s recommended)
         heartExplosionSize: 1.5         // Size of heart explosion effect (1.2-2.0 recommended)
     },
