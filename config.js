@@ -9,59 +9,59 @@ const CONFIG = {
 
     // The title that appears in the browser tab
     // You can use emojis! 💝 💖 💗 💓 💞 💕
-    pageTitle: "Will You Be My Valentine? 💖💝",
+    pageTitle: "Lifetime Hate Contract💖💝",
 
     // Floating emojis that appear in the background
     // Find more emojis at: https://emojipedia.org
     floatingEmojis: {
-        hearts: ['❤️', '💖', '💝', '💗', '💓'],  // Heart emojis
-        bears: ['🧸', '🐻', '🦄', '🐼']                       // Cute bear emojis
+        hearts: ['❤️', 'Krishudiii', '💖', '💝', '💘', 'piggy', '💗', '💓'],  // Heart emojis
+        bears: ['Piggy', '🐷', '🧸', '🐽', 'Krishu', '🐻', '🐼']                       // Cute bear emojis
     },
 
     // Questions and answers
     // Customize each question and its possible responses
     questions: {
         first: {
-            text: "Do you like me?",                                    // First interaction
-            yesBtn: "Yesssss",                                             // Text for "Yes" button
-            noBtn: "Hell No",                                               // Text for "No" button
-            secretAnswer: "I don't like you, I Hate You! ❤️"           // Secret hover message
+            text: "Do you hate me or are you just emotionally attached? 😌",                                    // First interaction
+            yesBtn: "I hate you🫣.",                                             // Text for "Yes" button
+            noBtn: "Same thing🙄.",                                               // Text for "No" button
+            secretAnswer: "Big words. Let’s measure this so-called hatred 😏"           // Secret hover message
         },
         second: {
-            text: "How much do you Hate me?",                          // For the love meter
-            startText: "This much!",                                   // Text before the percentage
-            nextBtn: "Next ❤️"                                         // Text for the next button
+            text: "Rate your hatred for me 🙄",                          // For the love meter
+            startText: "current hatred level 👉",                                   // Text before the percentage
+            nextBtn: "Increase the chaos 💕"                                         // Text for the next button
         },
         third: {
-            text: "Will you be my Valentine on February 14th, 2025? 🌹", // The big question!
-            yesBtn: "Yes!",                                             // Text for "Yes" button
-            noBtn: "No"                                                 // Text for "No" button
+            text: "So… are we officially stuck with each other for life? 💝😌", // The big question!
+            yesBtn: "Unfortunately yes.",                                             // Text for "Yes" button
+            noBtn: "As if I have a choice."                                                 // Text for "No" button
         }
     },
 
     // Love meter messages
     // They show up depending on how far they slide the meter
     loveMessages: {
-        extreme: "WOOOOW You Hate me This much?? 🙂‍↔️🫣🚀💥",  // Shows when they go past 5000%
-        high: "To Eternity and beyond! 🚀💝",              // Shows when they go past 1000%
-        normal: "And beyond! 🤪"                           // Shows when they go past 100%
+        extreme: "Hate you To Eternity and Forever🙂‍↔️💥",  // Shows when they go past 4500%
+        high: "Hmm… suspicious. Is this hate or just a little attachment? 👀💝",              // Shows when they go past 1000%
+        normal: "Weak. I expected better from you!🤪💔"                           // Shows when they go past 100%
     },
 
     // Messages that appear after they say "Yes!"
     celebration: {
-        title: "Yay! I'm the luckiest person in the world! 🎉💝💖💝💓",
-        message: "Now come get your gift, a big warm hug and a huge kiss!",
-        emojis: "🎁💖🤗💝💋❤️💕"  // These will bounce around
+        title: "Contract Signed. No Escape 🤝❤️",
+        message: "Congratulations. You are now legally obligated to hate me forever 😌💣!",
+        emojis: "💣😏💖🤝🤗💋❤️"  // These will bounce around
     },
 
     // Color scheme for the website
     // Use https://colorhunt.co or https://coolors.co to find beautiful color combinations
     colors: {
-        backgroundStart: "#ffafbd",      // Gradient start (try pastel colors for a soft look)
-        backgroundEnd: "#ffc3a0",        // Gradient end (should complement backgroundStart)
-        buttonBackground: "#ff6b6b",     // Button color (should stand out against the background)
-        buttonHover: "#ff8787",          // Button hover color (slightly lighter than buttonBackground)
-        textColor: "#ff4757"             // Text color (make sure it's readable!)
+        backgroundStart: "#ff9a9e",      // Gradient start (try pastel colors for a soft look)
+        backgroundEnd: "#fad0c4",        // Gradient end (should complement backgroundStart)
+        buttonBackground: "#ff4d6d",     // Button color (should stand out against the background)
+        buttonHover: "#ff758f",          // Button hover color (slightly lighter than buttonBackground)
+        textColor: "#7a1f2b"             // Text color (make sure it's readable!)
     },
 
     // Animation settings
@@ -87,3 +87,10 @@ const CONFIG = {
 
 // Don't modify anything below this line unless you know what you're doing
 window.VALENTINE_CONFIG = CONFIG; 
+// ============================================
+// 🚨 EXIT WARNING — CONTRACT BREACH PROTECTION 🚨
+// ============================================
+
+window.onbeforeunload = function () {
+    return "Leaving already? Contract breach detected 😤";
+};
